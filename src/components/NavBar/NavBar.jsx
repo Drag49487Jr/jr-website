@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class NavBar extends Component {
     render() {
         return(
-            <duv>NavBar</duv>
+            <>
+            <div>NavBar</div>
+            <Link to='/about'>About Me</Link>
+            </>
         )
     }
 }
