@@ -5,11 +5,11 @@ import './NavBar.css';
 class NavBar extends Component {
     render() {
         return(
-            <>
+            <div className='Navbar'>
             <img className='WolfLogo' src='../images/wolflogo.JPG' alt='wolf' />
-            <div>NavBar</div>
-            <Link to='/about'>About Me</Link>
-            </>
+            <Link className='link' to='/profile'>Profile</Link>
+            <Link className='link' to='/projects'>Projects</Link>
+            </div>
         )
     }
 }

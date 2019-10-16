@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React,{Component} from 'react';
 
-class Profile extends Component {
+class AboutMe extends Component {
     render() {
         return(
-            <div>Profile</div>
+            <div>About Me</div>
         )
     }
 }
 
-export default Profile;
+export default AboutMe;
