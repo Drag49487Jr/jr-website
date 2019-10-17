@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
+import NavBar from '../NavBar/NavBar';
 
 class Profile extends Component {
     render() {
         return(
-            <div>Projects</div>
+            <div>
+                <NavBar />
+                <div>Projects</div>
+            </div>
         )
     }
 }
