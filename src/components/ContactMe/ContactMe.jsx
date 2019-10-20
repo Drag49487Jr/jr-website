@@ -6,7 +6,13 @@ class ContactMe extends Component {
         return(
         <div>
             <NavBar />
-            <div>Contact me</div>
+            <form action='contactform.php' method='POST'>
+                Name: <input type='text' name='name'/>
+                Your E-mail: <input type='text' name='mail'/>
+                Subject: <input type='text' name='subject'/>
+                Message: <textarea name='message'></textarea>
+                <button name='submit'>Send Mail</button>
+            </form>
         </div>
         )
     }
