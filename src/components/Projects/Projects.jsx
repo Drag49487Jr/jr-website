@@ -6,7 +6,7 @@ class Profile extends Component {
         return(
             <div>
                 <NavBar />
-                <div>Projects</div>
+                <a href='https://courtkings.herokuapp.com/'><img src='../images/courtking.png' alt='courtking'/></a> 
             </div>
         )
     }
