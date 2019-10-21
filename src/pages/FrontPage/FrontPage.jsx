@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
-
+import NavBar from '../../components/NavBar/NavBar';
 class FrontPage extends Component{
     render() {
         return (
-            <div>Front Page</div>
+            <div>
+                <NavBar />
+                <div>Front Page</div>
+            </div>
         )
     }
 }

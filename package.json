@@ -28,5 +28,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<h1>Jr Profile</h1>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drag49487Jr/jr-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drag49487Jr/jr-website/issues"
+  },
+  "homepage": "https://github.com/Drag49487Jr/jr-website#readme"
 }
