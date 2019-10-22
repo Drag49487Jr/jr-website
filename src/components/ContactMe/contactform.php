@@ -6,5 +6,14 @@ if(isset($_POST['submit'])) {
     $mailFrom = $_POST['mail'];
     $message = $_POST['message'];
 
-    mail()
+
+    $mailTo = 'SamperioarArmandoar@outlook.com';
+    $headers = 'From: '.$mailFrom;
+    $txt = 'You have a receive an email from '.$name.'.\n\n'.$message;
+
+
+    mail($mailTo, $subject, $txt, $headers);
+
+    header('Location: ContactMe.jsx')
 }
+?>
