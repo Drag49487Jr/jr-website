@@ -5,7 +5,7 @@ import './Projects.css';
 class Profile extends Component {
     render() {
         return(
-            <div>
+            <div className='cardContainer'>
                 <NavBar />
                 <div className='container'>
                     <div className='card'>
@@ -32,6 +32,22 @@ class Profile extends Component {
                         </div>
                         <div className='details'>
                             <h2>Pokemon Search</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, a
+                                dipisicing elit. Nihil aut itaque dolorem
+                                 dicta velit alias adipisci molestias conseq
+                                 uuntur soluta? Eum, officia explicabo nihil ill
+                                 um nulla vitae placeat mollitia. Asperiores, labore.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className='container'>
+                    <div className='card'>
+                        <div className='imgBox'>
+                            <a href=''><img className='pokemon' src='../images/chatapp.png' alt='chatapp'/></a> 
+                        </div>
+                        <div className='details'>
+                            <h2>Chat App</h2>
                             <p>Lorem ipsum dolor sit amet consectetur, a
                                 dipisicing elit. Nihil aut itaque dolorem
                                  dicta velit alias adipisci molestias conseq
