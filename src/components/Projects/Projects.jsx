@@ -17,7 +17,12 @@ class Profile extends Component {
                             <h4>My Role: Front-End Developer</h4>
                             <p>
                                 Court Kings is an alternate version of "Fantasy Football". 
-                                Where you can create your very own dream team of basketball players! <br />
+                                Where you can create your very own dream team of basketball players! The user
+                                will only have one team filled with only six players out of 30+ players available.The admin will
+                                manually start the league and each day random stats are generated due to the rank of each player. 
+                                You will be able to see which user is in first place and that is shown by how many "Fantasy Points" 
+                                they obtained from their team. You can also see who is leading in each category like Rebounds, Blocks,
+                                ThreePointers, etc... .  <br />
                                 <a href='https://github.com/41Holmes41'>Cole's GitHub</a><br />
                                 <a href='https://github.com/samiduara'>Sam's GitHub</a>
                             </p>
