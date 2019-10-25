@@ -14,13 +14,12 @@ class Profile extends Component {
                         </div>
                         <div className='details'>
                             <h2>Court Kings</h2>
+                            <h4>My Role: Front-End Developer</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consecte
-                                tur adipisicing elit. Corporis est, s
-                                int quidem vel doloribus fuga unde cumq
-                                ue atque, id nesciunt modi quisquam perf
-                                erendis? Odit debitis ratione, quidem o
-                                bcaecati natus ea.
+                                Court Kings is an alternate version of "Fantasy Football". 
+                                Where you can create your very own dream team of basketball players! <br />
+                                <a href='https://github.com/41Holmes41'>Cole's GitHub</a><br />
+                                <a href='https://github.com/samiduara'>Sam's GitHub</a>
                             </p>
                         </div>
                     </div>
@@ -44,7 +43,7 @@ class Profile extends Component {
                 <div className='container'>
                     <div className='card'>
                         <div className='imgBox'>
-                            <a href=''><img className='pokemon' src='../images/chatapp.png' alt='chatapp'/></a> 
+                            <a href='theDeployedLinkGoesHere'><img className='pokemon' src='../images/chatapp.png' alt='chatapp'/></a> 
                         </div>
                         <div className='details'>
                             <h2>Chat App</h2>
