@@ -61,6 +61,22 @@ class Profile extends Component {
                         </div>
                     </div>
                 </div>
+                <div className='container'>
+                    <div className='card'>
+                        <div className='imgBox'>
+                            <a href='theDeployedLinkGoesHere'><img className='war' src='../images/wargame.png' alt='wargame'/></a> 
+                        </div>
+                        <div className='details'>
+                            <h2>War Game</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, a
+                                dipisicing elit. Nihil aut itaque dolorem
+                                 dicta velit alias adipisci molestias conseq
+                                 uuntur soluta? Eum, officia explicabo nihil ill
+                                 um nulla vitae placeat mollitia. Asperiores, labore.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
