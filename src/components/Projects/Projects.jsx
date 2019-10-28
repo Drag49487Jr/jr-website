@@ -64,7 +64,7 @@ class Profile extends Component {
                 <div className='container'>
                     <div className='card'>
                         <div className='imgBox'>
-                            <a href='theDeployedLinkGoesHere'><img className='war' src='../images/wargame.png' alt='wargame'/></a> 
+                            <a href='https://drag49487jr.github.io/War-Game/'><img className='war' src='../images/wargame.png' alt='wargame'/></a> 
                         </div>
                         <div className='details'>
                             <h2>War Game</h2>
