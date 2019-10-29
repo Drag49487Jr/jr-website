@@ -3,6 +3,7 @@ import {Route, Switch } from 'react-router-dom';
 import FrontPage from '../FrontPage/FrontPage';
 import Profile from '../../components//Profile/Profile';
 import Projects from '../../components/Projects/Projects';
+import ContactMe from '../../components/ContactMe/ContactMe';
 import './App.css';
 
 function App() {
@@ -23,6 +24,11 @@ function App() {
           <Projects 
 
           />  
+        }/>
+          <Route path='/contactme' render={() =>
+          <ContactMe 
+
+          />
         }/>
         </Switch>
     </div>
