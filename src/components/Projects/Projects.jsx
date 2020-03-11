@@ -48,7 +48,7 @@ class Profile extends Component {
                 <div className='container'>
                     <div className='card'>
                         <div className='imgBox'>
-                            <a href='theDeployedLinkGoesHere'><img className='pokemon' src='../images/chatapp.png' alt='chatapp'/></a> 
+                            <a href='theDeployedLinkGoesHere'><img className='chatapp' src='../images/chatapp.png' alt='chatapp'/></a> 
                         </div>
                         <div className='details'>
                             <h2>Chat App</h2>

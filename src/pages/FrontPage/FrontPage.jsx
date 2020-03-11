@@ -5,7 +5,6 @@ class FrontPage extends Component{
         return (
             <div>
                 <NavBar />
-                <div>Front Page</div>
             </div>
         )
     }

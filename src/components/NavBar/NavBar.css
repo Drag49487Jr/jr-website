@@ -4,6 +4,8 @@
 }
 .Navbar{
     display: flex;
+    height: 3vh;
+    width: 100%;
 }
 .link{
     text-decoration: none;
